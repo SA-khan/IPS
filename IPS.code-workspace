@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "Domain"
+		},
+		{
+			"path": "Infra.User"
+		},
+		{
+			"path": "Infra.Data"
+		},
+		{
+			"path": "Application"
+		},
+		{
+			"path": "Infra.IoC"
+		},
+		{
+			"path": "Api"
+		},
+		{
+			"path": "Presentation"
+		},
+		{
+			"path": "UnitTest"
+		}
+	],
+	"settings": {
+		"workbench.list.horizontalScrolling": false
+	}
+}

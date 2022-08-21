@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="mediatr" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\IPS.Domain.csproj" />
+    <ProjectReference Include="..\Infra.Data\IPS.Infra.Data.csproj" />
+    <ProjectReference Include="..\Infra.User\IPS.Infra.User.csproj" />
+  </ItemGroup>
+
+</Project>

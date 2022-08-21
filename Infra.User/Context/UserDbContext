@@ -1,0 +1,4 @@
+namespace IPS.Infra.User;
+public class UserDbContext : IdentityContext {
+    
+}
