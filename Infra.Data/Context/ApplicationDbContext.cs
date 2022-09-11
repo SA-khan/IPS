@@ -15,7 +15,7 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext {
     }
     public DbSet<Course> Courses { get; set; }
     //[NotMapped]
-    public DatabaseFacade? Database { get; set; }
+    public DatabaseFacade Database { get; set; }
     public override int SaveChanges(){
         return base.SaveChanges();
     }

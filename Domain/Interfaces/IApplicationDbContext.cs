@@ -9,6 +9,6 @@ namespace IPS.Domain.Interfaces;
 
 public interface IApplicationDbContext  {
     public DbSet<Course> Courses { get; set; }
-    public DatabaseFacade? Database { get; set; }
+    public DatabaseFacade Database { get; set; }
     public int SaveChanges();
 }
